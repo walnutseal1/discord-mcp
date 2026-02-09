@@ -242,4 +242,4 @@ Ensure your bot has these permissions:
 
 ## License
 
-MIT License - feel free to modify and use as needed!
+APACHE LICENSE 2.0 - feel free to modify and use as needed!
