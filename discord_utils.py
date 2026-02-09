@@ -228,7 +228,7 @@ class MentionProcessor:
             
             # Otherwise, look up the user
             resolver = DiscordResolver(self.bot)
-            user = await resolver.resolve_user(username)
+            user, error = await resolver.resolve_user(username)
             if user:
                 return f"<@{user.id}>"
             
